@@ -47,7 +47,7 @@ if (empty($_GET['max-multiplier']) && (int) $_GET['max-multiplier'] != 0) {
 if ($tracker == 0) {
 	$tall = (int) $_GET['max-multiplicand'] - (int) $_GET['min-multiplicand'] + 2;
 	$wide = (int) $_GET['max-multiplier'] - (int) $_GET['min-multiplier'] + 2;
-	echo "<table width=\"400\">";
+	echo "<table width=\"400\" border=\"1\">";
 	for ($i = 0; $i < $tall; $i++) {
 		echo "<tr>";
 		for ($ii = 0; $ii < $wide; $ii++) {
@@ -55,7 +55,7 @@ if ($tracker == 0) {
 				echo "<td></td>";
 			}
 			elseif ($i == 0 && $ii != 0) {
-				$temp = $min-multiplier + $ii;
+				$temp = $min-multiplier + $ii + 1;
 				echo "<td>$temp</td>";
 			}
 			elseif ($i != 0 && $ii == 0) {
@@ -63,7 +63,7 @@ if ($tracker == 0) {
 				echo "<td>$temp</td>";
 			}
 			else {
-				$temp = ($min-multiplicand + $i) * (min-multiplier + $ii);
+				$temp = ($min-multiplicand + $i) * (min-multiplier + $ii + 1);
 				echo "<td>$temp</td>";
 			}
 		}
