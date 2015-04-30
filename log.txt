@@ -1,0 +1,18 @@
+Start: Wed, 29 Apr 2015 22:50:00 -0500
+End: Thu, 30 Apr 2015 00:45:15 -0500 
+Tasks: finished login.php, content1.php, & content2.php
+Start: Wed, 29 Apr 2015 17:06:13 -0500
+End: Wed, 29 Apr 2015 18:53:16 -0500 
+Tasks: completed loopback.php and fixed a missed error in multtable
+Start: Wed, 29 Apr 2015 16:59:51 -0500
+End: Wed, 29 Apr 2015 17:06:12 -0500 
+Tasks: fixed error in multtable.php
+Start: Wed, 29 Apr 2015 14:00:00 -0500 
+End: Wed, 29 Apr 2015 16:59:50 -0500 
+Tasks: created src files and completed multtable.php
+Start: Tue, 28 Apr 2015 16:33:00 -0500
+End: Tue, 28 Apr 2015 16:37:11 -0500 
+Tasks: created repository and base files
+Start: Tue, 28 Apr 2015 16:30:00 -0500
+End: Tue, 28 Apr 2015 16:32:59 -0500 
+Tasks: Initial commit
